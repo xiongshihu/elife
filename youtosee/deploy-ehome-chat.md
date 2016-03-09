@@ -105,6 +105,12 @@ cd bundle/programs/server
 
 恭喜！启动成功；
 
+关闭控制台,你会发现访问不了你好不容易弄好的服务, 使用forever or pm2,可以更好的管理我们的站点:
+
+sudo npm install forever -g 
+
+forever start -l forever.log -o out.log -e err.log main.js   #输出日志和错误
+
 mongodb故障:
 1, Insufficient free space for journal files
 sudo rm /var/lib/mongo/mongod.lock
@@ -120,5 +126,6 @@ bind_ip = 127.0.0.1,192.168.161.100,45.56.65.100
 
 service mongod start
 参考:http://www.mkyong.com/mongodb/mongodb-allow-remote-access/
+
 
 
