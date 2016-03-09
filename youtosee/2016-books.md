@@ -34,7 +34,7 @@
 #2016 采购数清单
 1,JavaScript权威指南 作者： (美)David Flanagan    译者： 淘宝前端团队
 
-2,Node.js项目实践：构建可扩展的Web应用 作者:Azat Mardan（阿扎.马尔丹） 著，奇舞团 译
+2,Node.js实战（第2季）：作者:吴中骅 雷宗民 赵坤 刘亚中 著
 
 3,React Native：用JavaScript开发移动应用  作者:Truong Hoang Dung（张皇容） 著，奇舞团 译
   
