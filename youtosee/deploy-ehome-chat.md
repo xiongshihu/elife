@@ -83,6 +83,8 @@ node main.js
 
 如果出现 bcrypt_lib.node: invalid ELF header
 
+cd  /opt/bundle/programs/server/npm/npm-bcrypt/node_modules/
+rm -rf bcrypt/
 cd bundle/programs/server
 
 安装：npm install bcrypt
