@@ -73,10 +73,13 @@ cd bundle/programs/server
 npm install
 
 cd /opt/bundle
-# setup environment variables
+# setup environment variables 
+vi /etc/profile
+最后加入
 export MONGO_URL='mongodb://localhost:27017/rocketchat'
-export ROOT_URL='http://http://172.21.4.166:80'
+export ROOT_URL='http://172.21.4.166:80'
 export PORT=80
+退出并保存
 
 # start the server
 node main.js
