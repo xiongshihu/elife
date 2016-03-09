@@ -55,6 +55,8 @@ mkdir -p /data/db/
 修复mongo
 mongod --repair
 
+service mongod restart
+
 参考地址：
 https://github.com/RocketChat/Rocket.Chat/wiki/Instructions-to-install-Rocket.Chat-on-Centos-7
 https://docs.mongodb.org/manual/tutorial/install-mongodb-on-red-hat/#install-mongodb-community-edition
@@ -100,3 +102,18 @@ cd bundle/programs/server
 [39m +-------------------------------------+
 
 恭喜！启动成功；
+
+mongodb故障:
+1, Insufficient free space for journal files
+vi /etc/mongod.conf 
+添加:smallfiles = true
+保存
+service mongod start
+
+2,MongoDB – Allow remote access
+vi /etc/mongod.conf
+添加
+bind_ip = 127.0.0.1,192.168.161.100,45.56.65.100
+
+service mongod start
+
