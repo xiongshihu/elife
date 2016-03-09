@@ -105,6 +105,7 @@ cd bundle/programs/server
 
 mongodb故障:
 1, Insufficient free space for journal files
+sudo rm /var/lib/mongo/mongod.lock
 vi /etc/mongod.conf 
 添加:smallfiles = true
 保存
@@ -116,4 +117,6 @@ vi /etc/mongod.conf
 bind_ip = 127.0.0.1,192.168.161.100,45.56.65.100
 
 service mongod start
+参考:http://www.mkyong.com/mongodb/mongodb-allow-remote-access/
+
 
