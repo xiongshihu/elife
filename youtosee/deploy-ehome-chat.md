@@ -108,7 +108,7 @@ cd bundle/programs/server
 
 恭喜！启动成功；
 
-关闭控制台,你会发现访问不了你好不容易弄好的服务, 使用forever or pm2,可以更好的管理我们的站点:
+关闭控制台,你会发现服务访问不了了,应用维持在当前会话中; so,你可以使用forever or pm2,可以更好的管理我们的站点:
 
 sudo npm install forever -g 
 
