@@ -105,3 +105,5 @@
 13、Java 8实战  作者： [英] Raoul-Gabriel Urma    [意] Mario Fusco    [英] Alan Mycroft   译者： 陆明刚 劳佳
 
 14、鸟哥的Linux私房菜 基础学习篇(第三版) 作者:鸟哥 著
+
+15、产品前线：48位一线互联网产品经理的智慧与实战 作者:第八公社
